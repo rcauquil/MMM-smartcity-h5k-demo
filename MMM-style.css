@@ -1,0 +1,21 @@
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row:nth-child(4) {
+  margin-top: 20px;
+}
+
+.parking {
+  display: inline-block;
+  height: 20px;
+  width: 120px;
+  border: solid 2px white;
+  border-radius: 4px;
+}
+
+.in {
+  background-color: white;
+}
